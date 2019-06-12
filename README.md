@@ -20,13 +20,20 @@
 
 ### 스크린샷
 * 인트로
+
+
 ![KakaoTalk_20190612_152442975](https://user-images.githubusercontent.com/38643364/59329147-2676b480-8d29-11e9-899f-556210bc9d26.jpg)
 
 * 메인화면
+
+
 ![메인1](https://user-images.githubusercontent.com/38643364/59329100-0515c880-8d29-11e9-963d-f03144c1cbda.PNG)
 ![모두선택](https://user-images.githubusercontent.com/38643364/59329158-2f678600-8d29-11e9-9146-55ec5c881ed0.PNG)
 
 * 결과
+
+
+
 ![결과](https://user-images.githubusercontent.com/38643364/59329170-38585780-8d29-11e9-999f-64972ef0a73e.PNG)
 
 
