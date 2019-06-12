@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+    <GridLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name_ko"
+            android:textStyle="bold"
+            android:background="@color/colorPrimary"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:textSize="30sp"
+            android:textColor="@color/colorWhite"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_food"
+            android:background="@color/colorGray"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textSize="19sp"
+            android:textColor="@color/colorWhite"
+            android:gravity="center" />
+    </GridLayout>
+    <GridView
+        android:id="@+id/mainItemGrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/footerLayout"
+        android:layout_below="@id/headerLayout"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="3"
+        android:scrollbars="none"/>
+    <LinearLayout
+        android:id="@+id/footerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp">
+        <Button
+            android:id="@+id/selectButton"
+            android:background="@drawable/rounded_btn"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_select"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/selectAllButton"
+            android:background="@drawable/rounded_btn"
+            android:textColor="@color/colorWhite"
+            android:layout_marginStart="20dp"
+            android:textSize="20sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:text="@string/btn_select_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+</RelativeLayout>

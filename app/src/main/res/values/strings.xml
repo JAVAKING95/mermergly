@@ -1,0 +1,17 @@
+<resources>
+    <!-- App info -->
+    <string name="app_name_en">MerMerglee</string>
+    <string name="app_name_ko">뭐먹을리</string>
+    <string name="app_description_ko">먹고 싶은 음식을 선택하세요. 하나를 골라드립니다.</string>
+    <!-- App text -->
+    <string name="select_food">먹고싶은 음식을 선택해주세요.</string>
+    <string name="select_result">오늘의 선택은...</string>
+    <string name="btn_select">결과보기</string>
+    <string name="btn_select_all">모두선택</string>
+    <string name="btn_restart">다시하기</string>
+    <string name="btn_share">공유하기</string>
+    <!-- Image Description -->
+    <string name="image_item">item_image</string>
+    <string name="image_background">background_image</string>
+    <string name="image_selected">selected_image</string>
+</resources>
